@@ -158,6 +158,7 @@ NAME       TYPE      SIZE USED PRIO
 /dev/zram0 partition  64M 7.5M  100
 
 :~$ cat /proc/sys/vm/swappiness
+
 60
 
 
