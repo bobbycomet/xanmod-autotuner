@@ -85,7 +85,7 @@ sudo /usr/local/bin/autotuner.sh
 ```
 > #Note#: If you want to use the script from a different location, ensure you use the correct path.
 
-My autotuner is smart enough to know the difference. When it detects a generic kernel, it applies a basic performance profile, but when it sees a XanMod kernel, it knows it can do more. That's why it enables a special, advanced network tuning like BBR that other kernels don't support, proving that the right kernel makes a real difference in performance.
+The autotuner is smart enough to know the difference. When it detects a generic kernel, it applies a basic performance profile, but when it sees a XanMod kernel, it knows it can do more. That's why it enables a special, advanced network tuning like BBR that other kernels don't support, proving that the right kernel makes a real difference in performance.
 
 # Example: 
 
