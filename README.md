@@ -4,6 +4,8 @@
 > Not an official tool, community-made
 A hardened, XanMod-aware auto-tuner for Linux kernels, designed to optimize system performance for desktop responsiveness and gaming. This script is fully compatible with XanMod kernels but will apply a balanced, performance-oriented profile to any Linux kernel. This tool is a component of the upcoming Griffin OS but is available here as an MIT-licensed open-source project.
 
+https://github.com/bobbycomet/xanmod-kernel-update-tool These tools complement each other.
+
 # Features
 
 Robust Kernel Detection: Accurately identifies XanMod, XanMod-RT, XanMod-LTS, and generic kernels to apply the most appropriate tunings.
