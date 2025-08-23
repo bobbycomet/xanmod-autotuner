@@ -33,7 +33,7 @@ First, import the GPG key used to sign the packages. This ensures that the packa
 
 ```
 sudo mkdir -p /etc/apt/keyrings
-wget -O- https://bobbycomet.github.io/xanmod-autotuner/pubkey.gpg | gpg --dearmor | sudo tee /etc/apt/keyrings/xanmod-autotuner.gpg
+wget -O- https://bobbycomet.github.io/xanmod-autotuner/dists/xanmod/Release.gpg | gpg --dearmor | sudo tee /etc/apt/keyrings/xanmod-autotuner.gpg >/dev/null
 ```
 Next, add the repository to your system's sources list.
 
