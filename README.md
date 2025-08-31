@@ -158,7 +158,7 @@ EFFECTIVE_PRELOAD_ENABLE="1"
 
 NAME       TYPE      SIZE USED PRIO
 
-/swapfile  file        2G   0B   -2
+/swapfile  file        10.5G   0B   -2
 
 /dev/zram0 partition  64M 7.5M  100
 
@@ -272,7 +272,7 @@ $ swapon --show
 
 NAME       TYPE      SIZE USED PRIO
 
-/swapfile  file        2G   0B   -2
+/swapfile  file        10.5G   0B   -2
 
 /dev/zram0 partition  64M   0B  100
 
